@@ -1,13 +1,10 @@
-*{
-    margin: 100;
-    box-sizing: border-box;
-    }
-    .container{
-    display:flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: flex-start;}
-         
-    body {
-      background-color: #32566e;
-      }
+body {
+  background: Azure
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(199, 217, 230);
+  padding: 10px;
+}
