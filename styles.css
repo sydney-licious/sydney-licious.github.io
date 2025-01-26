@@ -23,13 +23,13 @@ main {
   top: 50%;
   left: 3rem;
   transform: translateY(-50%);
-  font: 400 0.9rem 'lucida console', monospace;
+  font: 400 0.9rem 'palatino', serif;
   color: white;
   opacity: 0;
   display: none;
 
   & .title {
-    font-family: 'garamond';
+    font-family: 'helvetica';
     text-transform: uppercase;
     text-shadow: 0 3px 10px rgba(0,0,0,0.2);
   }
