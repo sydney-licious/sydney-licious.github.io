@@ -498,9 +498,9 @@ opacity: 0;
 	height: 8px;
 	float: left;
 	background: #e55d87; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	background: -moz-linear-gradient(-45deg, #364d25 0%, #91ad7d 100%);
+	background: -webkit-linear-gradient(-45deg, #364d25 0%, #91ad7d 100%);
+	background: linear-gradient(135deg, #364d25 0%, #91ad7d 100%);
 }
 .value-00 {
 	width: 0;
@@ -613,7 +613,7 @@ input[type="submit"] {
 	box-sizing: border-box;
 }
 input[type="submit"]:hover {
-	background: #e55d87;
+	background: #364d25;
 	text-decoration: none;
 }
 /* Footer Section
