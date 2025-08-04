@@ -222,11 +222,13 @@ header {
 	justify-content: center;
   width: 100%;
 	height: 100vh;
-	background: #e55d87;
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+  background-image: url('imagefolder/DSCN8255.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full screen height */
+  color: white; /* Optional, to make text stand out */
+  position: relative; /* Keeps layout stable if you add overlays */
 }
 .title {
 	-webkit-align-self: center;
