@@ -497,7 +497,7 @@ opacity: 0;
 .progressBarValue {
 	height: 8px;
 	float: left;
-	background: #e55d87; /* Old browsers */
+	background: #364d25; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #364d25 0%, #91ad7d 100%);
 	background: -webkit-linear-gradient(-45deg, #364d25 0%, #91ad7d 100%);
 	background: linear-gradient(135deg, #364d25 0%, #91ad7d 100%);
