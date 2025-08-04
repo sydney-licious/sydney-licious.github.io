@@ -223,6 +223,15 @@ header {
   color: white; /* Optional, to make text stand out */
   position: relative; /* Keeps layout stable if you add overlays */
 }
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);  /* semi-transparent black overlay */
+  z-index: 1;
+}
+
 .title {
 	-webkit-align-self: center;
 	-ms-flex-item-align: center;
