@@ -625,7 +625,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Full screen height */
+  height: 20%;
   color: white;
 	box-sizing: border-box;
 }
@@ -695,15 +695,15 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 .icon {
 	padding-right: 10px;
-	color: #e55d87;
+	color: #364d25;
 }
 .block {
 	width: 70px;
 	height: 2px;
-	background: #e55d87; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	background: #364d25; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #364d25 0%, #91ad7d 100%);
+	background: -webkit-linear-gradient(-45deg, #364d25 0%, #91ad7d 100%);
+	background: linear-gradient(135deg, #364d25 0%, #91ad7d 100%);
 	margin-bottom: 50px;
 }
 
