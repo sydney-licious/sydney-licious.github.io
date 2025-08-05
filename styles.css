@@ -314,7 +314,7 @@ header .title {
 }
 }
 .open-nav {
-	max-height: 400px !important;
+	min-height: 300px !important;
 }
 
 .sticky {
