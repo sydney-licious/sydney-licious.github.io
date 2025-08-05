@@ -70,16 +70,23 @@ $(document).ready(function () {
   
     $(window).on('scroll', function () {
       var scrollPos = $(document).scrollTop();
+      console.log("Scroll position:", scrollPos); // ← See how far you've scrolled
   
       sections.each(function () {
-        var top = $(this).offset().top - 100;
-        var bottom = top + $(this).outerHeight();
+        var $this = $(this);
+        var top = $this.offset().top - 100;
+        var bottom = top + $this.outerHeight();
+  
+        // Debug the bounds for each section
+        console.log("Section:", $this.attr('id'), "| Top:", top, "| Bottom:", bottom);
   
         if (scrollPos >= top && scrollPos < bottom) {
-          var id = $(this).attr('id');
+          var id = $this.attr('id');
+          console.log("Currently in section:", id); // ← This tells you which section you're in
           history.replaceState(null, null, '#' + id);
         }
       });
     });
   });
+  
   
