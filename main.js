@@ -64,3 +64,22 @@ jQuery(document).ready(function($) {
 
 
 TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);
+
+$(document).ready(function () {
+    var sections = $('section[id]');
+  
+    $(window).on('scroll', function () {
+      var scrollPos = $(document).scrollTop();
+  
+      sections.each(function () {
+        var top = $(this).offset().top - 100;
+        var bottom = top + $(this).outerHeight();
+  
+        if (scrollPos >= top && scrollPos < bottom) {
+          var id = $(this).attr('id');
+          history.replaceState(null, null, '#' + id);
+        }
+      });
+    });
+  });
+  
